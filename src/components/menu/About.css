@@ -1,0 +1,29 @@
+#about {
+  background-color: rgb(31, 32, 32);
+  width: 25vw;
+  border-radius: 50px;
+  height: 168px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  color: white;
+  font-weight: 500;
+  padding: 0 40px;
+}
+
+#about p {
+  position: relative;
+  bottom: -55px;
+}
+
+@media (max-width: 818px) {
+  #about {
+    width: 47vw;
+  }
+}
+
+@media (max-width: 418px) {
+  #about {
+    border-radius: 100%;
+  }
+}

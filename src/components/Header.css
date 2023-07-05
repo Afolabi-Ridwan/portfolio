@@ -1,0 +1,50 @@
+#myLogo {
+  width: 60px;
+  border-radius: 100%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+#menu {
+  display: flex;
+}
+
+#menu li {
+  list-style: none;
+  padding: 0 5px;
+}
+
+#name {
+  display: flex;
+  margin-top: 100px;
+}
+
+#logo {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#idwan {
+  /* position: absolute; */
+  font-size: 30px;
+  color: white;
+  /* color: rgb(232, 236, 117); */
+  margin-left: 2px;
+  transform: translateY(24px);
+  font-weight: bold;
+}
+
+#myName {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(37, 224, 224);
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}

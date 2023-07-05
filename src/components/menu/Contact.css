@@ -1,0 +1,23 @@
+#contact {
+  background-color: rgb(232, 236, 117);
+  /* padding: 100px 60px; */
+  width: 51vw;
+  border-radius: 50px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  /* margin-top: 5px; */
+  font-weight: 600;
+  padding: 0 40px;
+}
+
+#contact p {
+  position: relative;
+  bottom: -55px;
+}
+
+@media (max-width: 818px) {
+  #contact {
+    width: 95vw;
+  }
+}

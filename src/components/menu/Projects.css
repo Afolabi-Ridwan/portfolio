@@ -1,0 +1,28 @@
+#projects {
+  background-color: rgb(235, 230, 214);
+  width: 25vw;
+  border-radius: 50px;
+  height: 168px;
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+  font-weight: 600;
+  padding: 0 40px;
+}
+
+#projects p {
+  position: relative;
+  bottom: -55px;
+}
+
+@media (max-width: 818px) {
+  #projects {
+    width: 47vw;
+  }
+}
+
+@media (max-width: 418px) {
+  #projects {
+    border-radius: 100%;
+  }
+}
