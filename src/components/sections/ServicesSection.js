@@ -1,9 +1,26 @@
 import "./ServicesSection.css";
+import TypingAnimation from "../menu/typingAnimation/TypingAnimation";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ServicesSection = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+    // Aos.refresh();
+  }, []);
+
   return (
     <div>
       <div id="serviceSection">
+        <div id="introTexts">
+          <div>
+            <h4>Afolabi Ridwan</h4>
+          </div>
+          <div>
+            <TypingAnimation />
+          </div>
+        </div>
         <p> WHAT I DO </p>
         <h1>
           {" "}
@@ -14,26 +31,52 @@ const ServicesSection = () => {
 
       <div id="servicesList">
         <ul>
-          <li>
-            <h3> Web Development</h3>
+          <div className="servicesListTabs">
+            <li data-aos="fade-left">
+              <div id="webIcon">
+                <p> w </p>
+              </div>
+              <div className="servicesInfo servicesInfo1">
+                <h3> Web Development</h3>
+                <p id="webDevNote">
+                  I focus on developing, responsive web solutions with knowledge
+                  of HTML, CSS, VANILLA JS AND REACT JS. An easy to use system
+                  where admins can alter or add content to a website{" "}
+                </p>
+              </div>
+            </li>
+            <div className="serviceDescription" data-aos="fade-right">
+              <p>
+                {" "}
+                An expert in <span className="biggerText">
+                  Web Development
+                </span>{" "}
+              </p>
+            </div>
+          </div>
 
-            <p>
-              I focus on developing, responsive web solutions with knowledge of
-              HTML, CSS, VANILLA JS AND REACT JS. An easy to use system where
-              admins can alter or add content to a website{" "}
-            </p>
-          </li>
+          <div className="servicesListTabs">
+            <li data-aos="fade-left">
+              <div>
+                <p id="fastSupportIcon"> support </p>
+              </div>
 
-          <li>
-            <h3> Fast Support </h3>
-
-            <p>
-              {" "}
-              I aim to be as available and supportive as we can to our clients.
-              Feel free to use the form below or contact us directly with
-              questions or requests.
-            </p>
-          </li>
+              <div className="servicesInfo servicesInfo2">
+                <h3> Fast Support </h3>
+                <p id="fastSupportNote">
+                  {" "}
+                  I aim to be as available and supportive as i can to clients.
+                  Feel free to use the form below,
+                </p>
+              </div>
+            </li>
+            <div className="serviceDescription" data-aos="fade-right">
+              <p>
+                {" "}
+                Always <span className="biggerText">happy to help</span>{" "}
+              </p>
+            </div>
+          </div>
         </ul>
       </div>
     </div>

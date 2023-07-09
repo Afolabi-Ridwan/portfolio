@@ -1,0 +1,467 @@
+#contactSection #container {
+  background-color: rgb(26, 26, 18);
+  padding: 50px;
+  color: rgb(194, 182, 73);
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+#contactSection #container #getInTouch {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#contactSection #container h1 {
+  width: 700px;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 70px;
+  margin-top: 20px;
+}
+
+#contactSection #container #contactInfo {
+  margin-top: 50px;
+  width: 500px;
+}
+
+#contactSection #container #contactInfo #officialContact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contactSection #container #contactInfo #officialContact p {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#contactSection #container #contactInfo p,
+#contactSection #container #contactInfo i {
+  border: 2px solid rgb(194, 182, 73);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#contactSection #container #contactInfo i {
+  padding: 10px 70px;
+}
+
+#contactSection #container #contactInfo #socialInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#contactSection #formContainer {
+  margin-top: 10px;
+}
+
+#contactSection #formContainer #contactTextarea {
+  width: 750px;
+}
+
+#contactSection #formContainer #contactTextarea #contactInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contactSection #formContainer #contactTextarea #contactInputs input {
+  width: 240px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(26, 26, 18);
+  color: rgb(194, 182, 73);
+  border: none;
+  padding: 10px 30px;
+  outline: rgb(194, 182, 73);
+  font-size: 13px;
+}
+
+#contactSection
+  #formContainer
+  #contactTextarea
+  #contactInputs
+  input::placeholder,
+#contactSection #formContainer #contactTextarea textarea::placeholder {
+  color: rgb(194, 182, 73);
+}
+
+#contactSection #formContainer #contactTextarea #contactInputs input:focus {
+  border: 1px solid rgb(194, 182, 73);
+}
+
+#contactSection #formContainer #contactTextarea textarea {
+  min-width: 100%;
+  min-height: 300px;
+  max-width: 100%;
+  max-height: 300px;
+  border-color: rgb(26, 26, 18);
+  outline: rgb(194, 182, 73);
+  border-radius: 50px;
+  background-color: rgb(26, 26, 18);
+  padding: 30px;
+  color: rgb(194, 182, 73);
+  margin-top: 10px;
+}
+
+#contactSection #formContainer #contactTextarea textarea:focus {
+  border-color: rgb(194, 182, 73);
+}
+
+#contactSection #contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contactSection #contactForm #contactSubmitBtn {
+  width: 295px;
+  background-color: rgb(194, 182, 73);
+  height: 380px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+#contactSection #contactForm #contactSubmitBtn p {
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+#contactSection #contactForm #contactSubmitBtn:hover {
+  width: 290px;
+  height: 375px;
+  margin-right: 3px;
+}
+
+@media (max-width: 1078px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 720px;
+  }
+}
+
+@media (max-width: 1058px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1038px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 680px;
+  }
+
+  #contactSection #formContainer #contactTextarea #contactInputs input {
+    width: 210px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 1018px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 660px;
+  }
+}
+
+@media (max-width: 998px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 640px;
+  }
+
+  /* #contactSection #formContainer #contactTextarea #contactInputs input {
+    width: 210px;
+    height: 70px;
+  } */
+}
+
+@media (max-width: 978px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 600px;
+  }
+
+  #contactSection #formContainer #contactTextarea #contactInputs input {
+    width: 190px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 948px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 580px;
+  }
+
+  #contactSection #formContainer #contactTextarea #contactInputs input {
+    width: 190px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 928px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 560px;
+  }
+
+  #contactSection #formContainer #contactTextarea #contactInputs input {
+    width: 180px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 908px) {
+  #contactSection #contactForm #contactSubmitBtn {
+    width: 275px;
+  }
+
+  #contactSection #contactForm #contactSubmitBtn:hover {
+    width: 270px;
+    height: 375px;
+  }
+}
+
+@media (max-width: 860px) {
+  #contactSection #contactForm #contactSubmitBtn {
+    width: 250px;
+  }
+
+  #contactSection #contactForm #contactSubmitBtn:hover {
+    width: 245px;
+    height: 375px;
+  }
+
+  #contactSection #container h1 {
+    width: 600px;
+    /* font-size: 60px; */
+  }
+}
+
+@media (max-width: 850px) {
+  #contactSection #contactForm #contactSubmitBtn {
+    width: 220px;
+  }
+
+  #contactSection #contactForm #contactSubmitBtn:hover {
+    width: 215px;
+    height: 375px;
+    /* margin-right: 3px; */
+  }
+}
+
+@media (max-width: 818px) {
+  #contactSection #contactForm {
+    flex-direction: column;
+  }
+
+  #contactSection #formContainer #contactTextarea #contactInputs {
+    flex-direction: column;
+  }
+
+  #contactSection #formContainer #contactTextarea #contactInputs input {
+    width: 95vw;
+    height: 70px;
+    margin-top: 10px;
+  }
+
+  #contactSection
+    #formContainer
+    #contactTextarea
+    #contactInputs
+    input:first-of-type {
+    margin-top: 0;
+  }
+
+  #contactSection #contactForm #contactSubmitBtn {
+    width: 95vw;
+    height: 100px;
+  }
+
+  #contactSection #contactForm #contactSubmitBtn:hover {
+    width: 94vw;
+    height: 95px;
+  }
+
+  #contactSection #formContainer #contactTextarea {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 658px) {
+  #contactSection #container h1 {
+    width: 500px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 618px) {
+  #contactSection #container h1 {
+    width: 470px;
+    font-size: 50px;
+  }
+
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 470px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 10px 70px;
+  }
+}
+
+@media (max-width: 558px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 450px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 13px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 8px 60px;
+  }
+}
+
+@media (max-width: 558px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 430px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 13px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 8px 60px;
+  }
+}
+
+@media (max-width: 528px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 400px;
+  }
+  #contactSection #container {
+    padding: 50px 30px;
+  }
+  
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 11px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 8px 50px;
+    font-size: 13px;
+  }
+
+  #contactSection #container #getInTouch {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #contactSection #container h1 {
+    width: 400px;
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 490px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 380px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 10px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 460px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 360px;
+  }
+  #contactSection #container {
+    padding: 50px 20px;
+  }
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 10px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 6px 40px;
+  }
+
+  #contactSection #container h1 {
+    width: 350px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 340px;
+    padding-left: 25px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 8px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 6px 40px;
+  }
+}
+
+@media (max-width: 415px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 320px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 8px;
+    padding: 8px 12px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 6px 40px;
+  }
+}
+
+@media (max-width: 395px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 300px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 8px;
+    padding: 8px 12px;
+  }
+
+  #contactSection #container h1 {
+    width: 300px;
+    font-size: 40px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 6px 40px;
+  }
+}

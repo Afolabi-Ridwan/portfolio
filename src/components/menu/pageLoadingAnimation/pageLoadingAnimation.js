@@ -1,15 +1,6 @@
-// import logo from './logo.svg';
-import Header from "./components/Header";
-import "./App.css";
-import Menu from "./components/Menu";
-import "./index.css";
-import ServicesSection from "./components/sections/ServicesSection";
-import AboutSection from "./components/sections/AboutSection";
-import ContactSection from "./components/sections/ContactSection";
-import PageLoadingAnimation from "./components/menu/pageLoadingAnimation/pageLoadingAnimation";
 import React, { useEffect, useState } from "react";
 
-function App() {
+const PageLoadingAnimation = () => {
   const [display, setDisplay] = useState(true);
 
   useEffect(() => {
@@ -21,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <>
       {display && (
         <div
           className="loadingPage"
@@ -41,6 +32,8 @@ function App() {
               borderRadius: "100%",
             }}
           >
+            {/* Your rotating object component */}
+
             <div
               style={{
                 height: "50px",
@@ -53,25 +46,7 @@ function App() {
         </div>
       )}
 
-      {!display && (
-        <>
-          {
-            <div className="container">
-              <div id="firstPage">
-                <Header />
-                <div id="menuTab">
-                  <Menu />
-                </div>
-              </div>
-              <div>
-                <ServicesSection />
-                <AboutSection />
-                <ContactSection />
-              </div>
-            </div>
-          }
-        </>
-      )}
+      {!display && <>{/* Rest of your page content */}</>}
 
       <style>
         {`
@@ -85,8 +60,8 @@ function App() {
         }
         `}
       </style>
-    </div>
+    </>
   );
-}
+};
 
-export default App;
+export default PageLoadingAnimation;

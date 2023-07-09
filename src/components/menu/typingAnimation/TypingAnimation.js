@@ -57,9 +57,9 @@ const TypingAnimation = () => {
   };
 
   return (
-    <h1 id="currentStatement">
+    <h4 id="currentStatement">
       {currentStatement} <span id="cursor"> </span>
-    </h1>
+    </h4>
   );
 };
 

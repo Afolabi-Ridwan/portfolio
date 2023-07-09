@@ -10,7 +10,17 @@ const Projects = () => {
   }, []);
   return (
     <div id="projects" data-aos="fade-right">
-      <p> Projects </p>
+      <div className="projectsSlideShow projectsSlideShow1">
+        <span> View my showcase. </span>
+      </div>
+
+      <div className=" projectsSlideShow projectsSlideShow3">
+        <span>View my showcase.</span>
+      </div>
+
+      <p> Work </p>
+
+      <p> projects </p>
     </div>
   );
 };
