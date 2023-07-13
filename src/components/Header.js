@@ -1,6 +1,5 @@
 import "./Header.css";
 import myLogo from "../images/[removal.ai]_tmp-64984198bcef5 (1).png";
-// import TypingAnimation from "./menu/typingAnimation/TypingAnimation";
 
 function Header() {
   return (

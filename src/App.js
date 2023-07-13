@@ -6,7 +6,7 @@ import "./index.css";
 import ServicesSection from "./components/sections/ServicesSection";
 import AboutSection from "./components/sections/AboutSection";
 import ContactSection from "./components/sections/ContactSection";
-import PageLoadingAnimation from "./components/menu/pageLoadingAnimation/pageLoadingAnimation";
+import ProjectsSection from "./components/sections/ProjectsSection";
 import React, { useEffect, useState } from "react";
 
 function App() {
@@ -30,8 +30,12 @@ function App() {
             justifyContent: "center",
             alignItems: "center",
             height: "100vh",
+            flexDirection: "column",
           }}
         >
+          <h2 style={{ color: "rgb(194, 182, 73)", marginBottom: "60px" }}>
+            AFOLABI RIDWAN
+          </h2>
           <div
             style={{
               animation: "rotation 4s infinite linear",
@@ -64,8 +68,9 @@ function App() {
                 </div>
               </div>
               <div>
-                <ServicesSection />
+                <ServicesSection  />
                 <AboutSection />
+                <ProjectsSection />
                 <ContactSection />
               </div>
             </div>

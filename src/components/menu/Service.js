@@ -1,5 +1,5 @@
 import "./Service.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -9,8 +9,19 @@ const Service = () => {
     // Aos.refresh();
   }, []);
 
+  function serviceTabClickHandler(sectionId) {
+    const section = document.getElementById(sectionId);
+
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
-    <div id="service" data-aos="fade-up">
+    <div
+      id="service"
+      data-aos="fade-up"
+      onClick={() => serviceTabClickHandler("serviceSection")}
+    >
       <div className="marquee marquee1">
         <span>
           {" "}

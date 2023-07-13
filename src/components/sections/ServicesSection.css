@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 #serviceSection {
   background-color: rgb(31, 32, 32);
   margin-top: 10px;
@@ -5,6 +9,7 @@
   border-radius: 60px;
   padding: 30px;
 }
+
 
 #serviceSection p,
 #serviceSection h1 {

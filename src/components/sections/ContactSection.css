@@ -59,6 +59,7 @@
 
 #contactSection #formContainer #contactTextarea {
   width: 750px;
+  /* width: 69vw; */
 }
 
 #contactSection #formContainer #contactTextarea #contactInputs {
@@ -116,6 +117,7 @@
 }
 
 #contactSection #contactForm #contactSubmitBtn {
+  /* width: 27vw; */
   width: 295px;
   background-color: rgb(194, 182, 73);
   height: 380px;
@@ -137,6 +139,51 @@
   margin-right: 3px;
 }
 
+#contactSection .personalTag {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contactSection .personalTag #myLogoX img {
+  width: 40px;
+  border-radius: 100%;
+  background-color: rgb(194, 182, 73);
+}
+
+#contactSection .personalTag #name {
+  display: flex;
+}
+
+#contactSection .personalTag p {
+  color: rgb(194, 182, 73);
+}
+
+#myLogoX #name span {
+  font-size: 20px;
+  transform: translateY(10px);
+  color: rgb(194, 182, 73);
+}
+
+#contactSection #productionInfo {
+  width: 58vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media (min-width: 1078px) {
+  #contactSection #formContainer #contactTextarea {
+    width: 69vw;
+  }
+
+  #contactSection #contactForm #contactSubmitBtn {
+    width: 27vw;
+  }
+}
 @media (max-width: 1078px) {
   #contactSection #formContainer #contactTextarea {
     width: 720px;
@@ -285,6 +332,22 @@
   #contactSection #formContainer #contactTextarea {
     width: 95vw;
   }
+
+  #contactSection .personalTag {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  #contactSection #productionInfo {
+    flex-direction: column;
+    padding: 20px 0;
+    font-size: 10px;
+  }
+
+  #contactSection #productionInfo div:first-of-type {
+    margin-bottom: 15px;
+    margin-top: -10px;
+  }
 }
 
 @media (max-width: 658px) {
@@ -353,7 +416,7 @@
   #contactSection #container {
     padding: 50px 30px;
   }
-  
+
   #contactSection #container #contactInfo #officialContact p {
     font-size: 11px;
   }
@@ -441,7 +504,7 @@
   }
 
   #contactSection #container #contactInfo i {
-    padding: 6px 40px;
+    padding: 4px 35px;
   }
 }
 
@@ -449,6 +512,32 @@
   #contactSection #container #contactInfo {
     margin-top: 50px;
     width: 300px;
+    padding-left: 10px;
+  }
+
+  #contactSection #container {
+    padding-left: 30px;
+  }
+
+  #contactSection #container h1 {
+    width: 310px;
+    font-size: 40px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 4px 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 300px;
+    padding-left: 10px;
+  }
+
+  #contactSection #container {
+    padding-left: 20px;
   }
 
   #contactSection #container #contactInfo #officialContact p {
@@ -457,11 +546,35 @@
   }
 
   #contactSection #container h1 {
-    width: 300px;
-    font-size: 40px;
+    width: 310px;
+    font-size: 30px;
   }
 
   #contactSection #container #contactInfo i {
-    padding: 6px 40px;
+    padding: 4px 35px;
   }
 }
+
+/* @media (min-width: 300px) {
+  #contactSection #container #contactInfo {
+    margin-top: 50px;
+    width: 200px;
+    padding-left: 10px;
+  }
+
+  #contactSection #container h1:first-of-type {
+    width: 240px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    font-size: 6px;
+    padding: 8px 12px;
+  }
+
+  #contactSection #container #contactInfo i {
+    padding: 4px 30px;
+    font-size: 10px;
+  }
+} */

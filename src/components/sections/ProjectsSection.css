@@ -1,0 +1,126 @@
+#projectsSection #container {
+  /* background-color: rgba(90, 8, 0, 0.2); */
+  /* box-shadow: 4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.projectTabs {
+  width: 91vw;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.projectTab {
+  width: 44vw;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projectTab ul,
+.projectTab p {
+  margin-top: 80px;
+}
+
+.projectTab ul li a {
+  text-decoration: none;
+  color: unset;
+}
+
+.projectTab h1 {
+  font-size: 30px;
+}
+
+.projectTab p {
+  width: 30vw;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.projectTab ul {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.projectTab ul li {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.projectTab.weatherAppTab {
+  background-color: rgb(134, 184, 180);
+  color: rgb(2, 44, 41);
+}
+
+.projectTab.BabzFashionTab {
+  background-color: rgb(14, 39, 30);
+  color: rgb(176, 233, 212);
+}
+
+.projectTab.expenseCalculatorTab {
+  background-color: rgb(148, 95, 139);
+  color: rgb(41, 18, 37);
+}
+
+.projectTab.colorGameTab {
+  background-color: rgb(183, 218, 102);
+  color: rgb(40, 48, 23);
+}
+
+.projectTab.manageAppTab {
+  background-color: rgb(77, 28, 28);
+  color: rgb(226, 149, 149);
+}
+
+.projectTab.expenseTrackerTab {
+  background-color: rgb(163, 50, 116);
+  color: rgb(53, 14, 44);
+}
+
+@media (max-width: 818px) {
+  .projectTabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectTab {
+    width: 60vw;
+    height: 380px;
+  }
+
+  .projectTab p {
+    width: 40vw;
+  }
+
+  .projectTabs .projectTab:first-of-type {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projectTab {
+    width: 80vw;
+    height: 380px;
+  }
+  .projectTab h1 {
+    font-size: 27px;
+  }
+
+  .projectTab p {
+    width: 60vw;
+    font-size: 9px;
+  }
+}

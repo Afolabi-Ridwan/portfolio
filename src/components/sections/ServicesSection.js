@@ -11,7 +11,7 @@ const ServicesSection = () => {
   }, []);
 
   return (
-    <div>
+    <div id="serviceSectionContainer">
       <div id="serviceSection">
         <div id="introTexts">
           <div>
@@ -32,7 +32,7 @@ const ServicesSection = () => {
       <div id="servicesList">
         <ul>
           <div className="servicesListTabs">
-            <li data-aos="fade-left">
+            <li data-aos="fade-right">
               <div id="webIcon">
                 <p> w </p>
               </div>
@@ -45,7 +45,7 @@ const ServicesSection = () => {
                 </p>
               </div>
             </li>
-            <div className="serviceDescription" data-aos="fade-right">
+            <div className="serviceDescription" data-aos="fade-left">
               <p>
                 {" "}
                 An expert in <span className="biggerText">
@@ -56,7 +56,7 @@ const ServicesSection = () => {
           </div>
 
           <div className="servicesListTabs">
-            <li data-aos="fade-left">
+            <li data-aos="fade-right">
               <div>
                 <p id="fastSupportIcon"> support </p>
               </div>
@@ -70,7 +70,7 @@ const ServicesSection = () => {
                 </p>
               </div>
             </li>
-            <div className="serviceDescription" data-aos="fade-right">
+            <div className="serviceDescription" data-aos="fade-left">
               <p>
                 {" "}
                 Always <span className="biggerText">happy to help</span>{" "}

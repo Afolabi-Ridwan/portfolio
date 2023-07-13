@@ -8,8 +8,19 @@ const Projects = () => {
     Aos.init({ duration: 1000 });
     // Aos.refresh();
   }, []);
+
+  const projectsTabClickHandler = () => {
+    projectsTabClicked("projectsSection");
+  };
+
+  function projectsTabClicked(sectionId) {
+    const section = document.getElementById(sectionId);
+
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
-    <div id="projects" data-aos="fade-right">
+    <div id="projects" data-aos="fade-left" onClick={projectsTabClickHandler}>
       <div className="projectsSlideShow projectsSlideShow1">
         <span> View my showcase. </span>
       </div>

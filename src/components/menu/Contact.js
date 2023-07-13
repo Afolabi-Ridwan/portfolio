@@ -1,8 +1,25 @@
 import "./Contact.css";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+    // Aos.refresh();
+  }, []);
+
+  function contactTabClickHandler() {
+    contactTabClicked("contactSection");
+  }
+  function contactTabClicked(sectionId) {
+    const section = document.getElementById(sectionId);
+
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
-    <div id="contact">
+    <div id="contact" data-aos="fade-right" onClick={contactTabClickHandler}>
       <div className="contactSlideShow contactSlideShow1">
         <span>
           {" "}

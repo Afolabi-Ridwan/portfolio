@@ -1,5 +1,4 @@
 import "./AboutSection.css";
-import TypingAnimation from "../menu/typingAnimation/TypingAnimation";
 
 const AboutSection = () => {
   return (
