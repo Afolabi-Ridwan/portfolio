@@ -31,8 +31,13 @@
 }
 
 #contactSection #container #contactInfo #officialContact p {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
+}
+
+#contactSection #container #contactInfo #officialContact p a {
+  color: unset;
+  text-decoration: none;
 }
 
 #contactSection #container #contactInfo p,
@@ -51,6 +56,10 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+}
+
+#contactSection #container #contactInfo #socialInfo a {
+  color: unset;
 }
 
 #contactSection #formContainer {
@@ -139,7 +148,7 @@
   margin-right: 3px;
 }
 
-#contactSection .personalTag {
+/* #contactSection .personalTag {
   height: 90px;
   display: flex;
   justify-content: space-between;
@@ -173,7 +182,7 @@
   justify-content: space-between;
   font-size: 13px;
   margin-top: 10px;
-}
+} */
 
 @media (min-width: 1078px) {
   #contactSection #formContainer #contactTextarea {
@@ -182,6 +191,10 @@
 
   #contactSection #contactForm #contactSubmitBtn {
     width: 27vw;
+  }
+
+  #contactSection #contactForm #contactSubmitBtn:hover {
+    width: 26vw;
   }
 }
 @media (max-width: 1078px) {
@@ -333,7 +346,7 @@
     width: 95vw;
   }
 
-  #contactSection .personalTag {
+  /* #contactSection .personalTag {
     flex-direction: column;
     margin: 20px 0;
   }
@@ -347,6 +360,26 @@
   #contactSection #productionInfo div:first-of-type {
     margin-bottom: 15px;
     margin-top: -10px;
+  } */
+
+  #contactSection #container #contactInfo #officialContact {
+    flex-direction: column;
+  }
+
+  #contactSection #container #contactInfo #officialContact p {
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contactSection #container #contactInfo #officialContact p:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  #contactSection #container #contactInfo #officialContact p span {
+    margin-right: 10px;
   }
 }
 
@@ -369,7 +402,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
   }
 
@@ -385,7 +418,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   #contactSection #container #contactInfo i {
@@ -400,7 +433,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   #contactSection #container #contactInfo i {
@@ -418,7 +451,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 11px;
+    font-size: 15px;
   }
 
   #contactSection #container #contactInfo i {
@@ -444,7 +477,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   #contactSection #container #contactInfo i {
@@ -461,7 +494,7 @@
     padding: 50px 20px;
   }
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   #contactSection #container #contactInfo i {
@@ -484,7 +517,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 8px;
+    font-size: 13px;
   }
 
   #contactSection #container #contactInfo i {
@@ -499,7 +532,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 8px;
+    font-size: 13px;
     padding: 8px 12px;
   }
 
@@ -541,7 +574,7 @@
   }
 
   #contactSection #container #contactInfo #officialContact p {
-    font-size: 8px;
+    font-size: 13px;
     padding: 8px 12px;
   }
 

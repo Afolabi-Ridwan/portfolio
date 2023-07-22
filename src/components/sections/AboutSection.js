@@ -1,4 +1,5 @@
 import "./AboutSection.css";
+import myResume from "./images/Ridwan's Resume (2).pdf";
 
 const AboutSection = () => {
   return (
@@ -32,8 +33,17 @@ const AboutSection = () => {
         </div>
 
         <div id="aboutSectionBtn">
-          <button> Resume </button>
-          <button> Hire Me </button>
+          <button>
+            <a href={myResume} download rel="noreferrer">
+              {" "}
+              Resume{" "}
+            </a>
+          </button>
+
+          <button>
+            {" "}
+            <a href="mailto:afolabiridwan93@gmail.com">Hire Me</a>{" "}
+          </button>
         </div>
       </div>
     </div>

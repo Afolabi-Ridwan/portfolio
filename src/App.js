@@ -8,6 +8,7 @@ import AboutSection from "./components/sections/AboutSection";
 import ContactSection from "./components/sections/ContactSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 import React, { useEffect, useState } from "react";
+import PersonalTag from "./components/menu/personalTag";
 
 function App() {
   const [display, setDisplay] = useState(true);
@@ -33,9 +34,9 @@ function App() {
             flexDirection: "column",
           }}
         >
-          <h2 style={{ color: "rgb(194, 182, 73)", marginBottom: "60px" }}>
+          {/* <h2 style={{ color: "rgb(194, 182, 73)", marginBottom: "60px" }}>
             AFOLABI RIDWAN
-          </h2>
+          </h2> */}
           <div
             style={{
               animation: "rotation 4s infinite linear",
@@ -68,10 +69,11 @@ function App() {
                 </div>
               </div>
               <div>
-                <ServicesSection  />
+                <ServicesSection />
                 <AboutSection />
                 <ProjectsSection />
                 <ContactSection />
+                <PersonalTag />
               </div>
             </div>
           }

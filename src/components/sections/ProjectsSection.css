@@ -26,6 +26,14 @@
   box-shadow: 4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* .projectTab:hover {
+  width: 43vw;
+  height: 365px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+} */
+
 .projectTab ul,
 .projectTab p {
   margin-top: 80px;

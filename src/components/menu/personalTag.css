@@ -1,0 +1,53 @@
+.personalTag {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personalTag #myLogoX img {
+  width: 40px;
+  border-radius: 100%;
+  background-color: rgb(194, 182, 73);
+}
+
+.personalTag #name {
+  display: flex;
+}
+
+.personalTag p {
+  color: rgb(194, 182, 73);
+}
+
+#myLogoX #name span {
+  font-size: 20px;
+  transform: translateY(10px);
+  color: rgb(194, 182, 73);
+}
+
+#productionInfo {
+  width: 58vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media (max-width: 818px) {
+  .personalTag {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  #productionInfo {
+    flex-direction: column;
+    padding: 20px 0;
+    font-size: 10px;
+  }
+
+  #productionInfo div:first-of-type {
+    margin-bottom: 15px;
+    margin-top: -10px;
+  }
+}
