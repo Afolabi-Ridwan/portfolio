@@ -30,6 +30,10 @@ const ContactSection = () => {
 
   return (
     <div id="contactSection">
+      <h1 className="sectionHeader">
+        {" "}
+        Conta<span>ct Me</span>{" "}
+      </h1>
       <div id="container">
         <p id="getInTouch"> Get in touch!</p>
 

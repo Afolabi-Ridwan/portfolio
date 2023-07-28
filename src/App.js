@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import Header from "./components/Header";
 import "./App.css";
 import Menu from "./components/Menu";
@@ -34,9 +33,6 @@ function App() {
             flexDirection: "column",
           }}
         >
-          {/* <h2 style={{ color: "rgb(194, 182, 73)", marginBottom: "60px" }}>
-            AFOLABI RIDWAN
-          </h2> */}
           <div
             style={{
               animation: "rotation 4s infinite linear",

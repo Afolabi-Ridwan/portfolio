@@ -4,6 +4,10 @@ import myResume from "./images/Ridwan's Resume (2).pdf";
 const AboutSection = () => {
   return (
     <div id="aboutSection">
+      {/* <h1 className="sectionHeader">
+        {" "}
+        Abo<span>ut Me</span>{" "}
+      </h1> */}
       <div id="container">
         <div id="aboutMe">
           <h1> About Me </h1>
@@ -34,7 +38,7 @@ const AboutSection = () => {
 
         <div id="aboutSectionBtn">
           <button>
-            <a href={myResume} download rel="noreferrer">
+            <a href={myResume} download target="_blank" rel="noreferrer">
               {" "}
               Resume{" "}
             </a>

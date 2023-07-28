@@ -10,8 +10,14 @@ const ServicesSection = () => {
     // Aos.refresh();
   }, []);
 
+
+
   return (
     <div id="serviceSectionContainer">
+      <h1 className="sectionHeader">
+        {" "}
+        Serv<span>ices</span>{" "}
+      </h1>
       <div id="serviceSection">
         <div id="introTexts">
           <div>

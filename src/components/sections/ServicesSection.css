@@ -10,10 +10,20 @@ body {
   padding: 30px;
 }
 
-
 #serviceSection p,
 #serviceSection h1 {
   color: rgb(105, 93, 172);
+}
+
+#serviceSectionContainer .sectionHeader {
+  color: rgb(105, 93, 172, 0.5);
+
+  text-align: center;
+  margin-top: 50px;
+}
+
+#serviceSectionContainer .sectionHeader span {
+  color: rgb(31, 32, 32);
 }
 
 #serviceSection p {

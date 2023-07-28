@@ -148,41 +148,15 @@
   margin-right: 3px;
 }
 
-/* #contactSection .personalTag {
-  height: 90px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#contactSection .sectionHeader {
+  color: rgb(194, 182, 73, 0.5);
+  text-align: center;
+  margin-top: 50px;
 }
 
-#contactSection .personalTag #myLogoX img {
-  width: 40px;
-  border-radius: 100%;
-  background-color: rgb(194, 182, 73);
+#contactSection .sectionHeader span {
+  color: rgb(26, 26, 18);
 }
-
-#contactSection .personalTag #name {
-  display: flex;
-}
-
-#contactSection .personalTag p {
-  color: rgb(194, 182, 73);
-}
-
-#myLogoX #name span {
-  font-size: 20px;
-  transform: translateY(10px);
-  color: rgb(194, 182, 73);
-}
-
-#contactSection #productionInfo {
-  width: 58vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 13px;
-  margin-top: 10px;
-} */
 
 @media (min-width: 1078px) {
   #contactSection #formContainer #contactTextarea {

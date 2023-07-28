@@ -26,13 +26,17 @@
   box-shadow: 4px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* .projectTab:hover {
-  width: 43vw;
-  height: 365px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-} */
+#projectsSection #container .sectionHeader {
+  color: rgba(134, 184, 180, 0.5);
+  text-align: center;
+  /* margin-top: 30px; */
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
+
+#projectsSection #container .sectionHeader span {
+  color: rgb(14, 39, 30);
+}
 
 .projectTab ul,
 .projectTab p {

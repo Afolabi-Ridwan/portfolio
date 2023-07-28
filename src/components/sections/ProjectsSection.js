@@ -14,6 +14,10 @@ const ProjectsSection = () => {
   return (
     <div id="projectsSection">
       <div id="container">
+        <h1 className="sectionHeader">
+          {" "}
+          Pro<span>jects</span>{" "}
+        </h1>
         <div className="projectTabs">
           <div className="projectTab weatherAppTab" data-aos="fade-right">
             <h1> Weather App</h1>

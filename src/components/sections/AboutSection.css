@@ -26,6 +26,17 @@
   text-decoration: none;
 }
 
+/* #aboutSection .sectionHeader {
+  color: rgb(211, 136, 155, 0.5);
+
+  text-align: center;
+  margin-top: 50px;
+}
+
+#aboutSection .sectionHeader span {
+  color: rgb(32, 24, 24);
+} */
+
 #toolList {
   padding: 10px 80px;
   display: flex;
